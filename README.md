@@ -10,3 +10,28 @@ With this script you can hide *text files* and *images* within other images and 
 
 
 ## Brief Introduction How it Works:
+Every image si made of pixels, and every pixel is made of 3 colors: **RED, GREEN, BLUE** *(RGB)*.
+<p align="center">
+<img src="https://github.com/CarlosCujcuj/Image-Steganography/blob/master/imgs/pixels.jpg" height="250" /> <img src="https://github.com/CarlosCujcuj/Image-Steganography/blob/master/imgs/pixels2.jpg" height="250" />
+</p>
+
+This means that every image is composed of 3 channels (red, green blue).
+If you separate each channel you end up with a black and white image where you have parts of images which are more white than others for every channel. 
+**This represents the the amount of that color in that channel**. As you can see in the image below, in the red channel the Scarlet Macaw has his feathers more white than in other channels
+
+<p align="center">
+<img src="https://github.com/CarlosCujcuj/Image-Steganography/blob/master/imgs/channels.png" height="250" />
+</p>
+
+So this tell us that every channel has a range of value that describes how much of a color has that image. This range of values goes from 0 to 255, which **0** represents total **Black** and **255** total **White**
+
+<p align="center">
+<img src="https://github.com/CarlosCujcuj/Image-Steganography/blob/master/imgs/values.gif" height="250" />
+</p>
+
+So all of this information help us to achieve our goal to hide info inside an image, because we can represent characters like letters or other alphanumeric with numbers. Every alphanumeric character is represented by a number in the ASCII table
+
+<p align="center">
+<img src="https://github.com/CarlosCujcuj/Image-Steganography/blob/master/imgs/ascii.png" height="450" />
+</p>
+So we can use these values to save the characters within our images. 
