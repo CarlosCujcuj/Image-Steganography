@@ -107,3 +107,34 @@ Is the opposite of the first one
 </p>
 
 And that's your secret text printed in the terminal
+
+### Option 3
+* **Path for base image:** Image to hide other image
+* **Path for image to hide:** second image
+<p align="center">
+<img src="https://github.com/CarlosCujcuj/Image-Steganography/blob/master/imgs/3.png" height="300" />
+</p>
+
+Base Image/Output:
+<p align="center">
+<img src="https://github.com/CarlosCujcuj/Image-Steganography/blob/master/imgs/mando.jpg" height="200" /> <img src="https://github.com/CarlosCujcuj/Image-Steganography/blob/master/imgs/mandoYoda.png" height="200" />
+</p>
+
+And again we see those point in the image which is the hidden image. 
+<p align="center">
+<img src="https://github.com/CarlosCujcuj/Image-Steganography/blob/master/imgs/points2.png" height="150" />
+</p>
+
+### Option 4
+* **Path for image:** Image to extract the hidden image  
+<p align="center">
+<img src="https://github.com/CarlosCujcuj/Image-Steganography/blob/master/imgs/4.png" height="300" />
+</p>
+
+Output:
+<p align="center">
+<img src="https://github.com/CarlosCujcuj/Image-Steganography/blob/master/imgs/babyYoda.jpg" height="300" />
+</p>
+
+
+Hope you like it :shipit:
