@@ -43,3 +43,67 @@ letters or other alphanumeric with numbers. Every alphanumeric character is repr
 <p align="center">
 <img src="https://github.com/CarlosCujcuj/Image-Steganography/blob/master/imgs/Screen%20Shot%202019-12-04%20at%201.26.31%20PM.png" height="250" />
 </p>
+
+## How to run it?
+```
+$ python steg.py
+```
+Will print this menu
+<p align="center">
+<img src="https://github.com/CarlosCujcuj/Image-Steganography/blob/master/imgs/menu.png" height="300" />
+</p>
+
+### Option 1 
+Where:  
+* **Path for image:** Base image where you will hide the text
+* **.txt file:** path for the text you want to hide
+* **Pattern:** every this number of pixels, the program will save a character in the base image
+* **Name to save new image:** name of the new image the program will generate
+
+<p align="center">
+<img src="https://github.com/CarlosCujcuj/Image-Steganography/blob/master/imgs/recipe.png" height="400" />
+</p> 
+
+Base Image:  
+<p align="center">
+<img src="https://github.com/CarlosCujcuj/Image-Steganography/blob/master/imgs/baboon.png" height="300" />
+</p>
+
+Text hidden:  
+```
+Ingredients: 
+
+1 recipe pastry for a 9 inch double crust pie
+3/4 cup white sugar
+3 tablespoons cornstarch
+1 (20 ounce) can crushed pineapple with juice
+1 tablespoon lemon juice
+2 tablespoons milk
+1 tablespoon white sugar
+
+
+
+Directions:
+
+Preheat oven to 425 degrees F (220 degrees C)
+
+In a medium saucepan combine sugar, cornstarch, pineapple with juice, and lemon juice. Cook over medium heat, stirring constantly until thickened, then allow to boil 1 minute.
+
+Cool slightly and pour mixture into pastry-lined pie pan. Cover with top crust and seal. Make a few steam vents in crust, then brush with milk and sprinkle with sugar. Place in preheated oven and bake for 35 minutes. Serve chilled or at room temperature.
+```
+
+**Output Image:**
+<p align="center">
+<img src="https://github.com/CarlosCujcuj/Image-Steganography/blob/master/imgs/baboonCupCake.png" height="300" /><img src="https://github.com/CarlosCujcuj/Image-Steganography/blob/master/imgs/points.png" height="300" />
+</p>
+If you see more close you can see some points in the nose of the baboon. These are the characters we hide, but it's not so obvious. 
+
+### Option 2
+Is the opposite of the first one
+* **Path for image:** the image from where you want to extract the hidden text
+* **Pattern:** you have to know this to get every character, look at it like the *key*.
+<p align="center">
+<img src="https://github.com/CarlosCujcuj/Image-Steganography/blob/master/imgs/2.png" height="500" />
+</p>
+
+And that's your secret text printed in the terminal
