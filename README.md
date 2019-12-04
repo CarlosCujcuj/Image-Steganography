@@ -36,6 +36,7 @@ So all of this information help us to achieve our goal to hide info inside an im
 </p>
 So we can use these values to save every characters within our images. 
 
+### Images
 To save images within other images there's a step before this. First we need to encode to image to **Base64**, which is a group of binary-to-text encoding schemes that represent binary data in an ASCII string.
 letters or other alphanumeric with numbers. Every alphanumeric character is represented by a number in the ASCII table. Like we see in the image below
 
