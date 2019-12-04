@@ -38,7 +38,7 @@ So we can use these values to save every characters within our images.
 
 ### Images
 To save images within other images there's a step before this. First we need to encode to image to **Base64**, which is a group of binary-to-text encoding schemes that represent binary data in an ASCII string.
-letters or other alphanumeric with numbers. Every alphanumeric character is represented by a number in the ASCII table. Like we see in the image below
+letters or other alphanumeric with numbers. Every alphanumeric character is represented by a number in the ASCII table. Like we see in the image below from the site [base64-image.de](https://www.base64-image.de/)
 
 <p align="center">
 <img src="https://github.com/CarlosCujcuj/Image-Steganography/blob/master/imgs/Screen%20Shot%202019-12-04%20at%201.26.31%20PM.png" height="250" />
